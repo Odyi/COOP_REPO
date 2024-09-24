@@ -4,7 +4,7 @@ from back_end import *
 def printMeny():
     print("------------------- Kalkulator -------------------")
     print("| 1. Regne                                       |")
-    print("| 5. Avslutt                                     |")
+    print("| 2. Avslutt                                     |")
     print("--------------------------------------------------")
     menyvalg = input("Velg operasjon fra menyen: ")
     utfoerMenyvalg(menyvalg)
