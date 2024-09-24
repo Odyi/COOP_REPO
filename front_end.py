@@ -22,7 +22,7 @@ def utfoerMenyvalg(valgtTall):
         else:
             printMeny()
     else:
-        nyttForsoek = input("*** Ugyldig valg. Velg et tall 1 eller 2. Trykk for å fortsette *** ")
+        nyttForsoek = input("|| Ugyldig valg. Velg et tall 1 eller 2. Trykk for å fortsette ||")
         printMeny()
 
 # Funksjon som utfører matematisk beregning
@@ -34,7 +34,7 @@ def regne():
 
 # Funksjon som setter programmet på pause til brukeren trykker en tast
 def pause_og_fortsett():
-    input("-- Trykk en tast for å fortsette --")
+    input("|| Trykk en tast for å fortsette ||")
     printMeny()
 
 # Kaller hovedfunksjonen for å vise menyen første gang når programmet starter
