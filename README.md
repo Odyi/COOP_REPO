@@ -7,6 +7,6 @@ Et samarbeidsprosjekt hvor to elever skal kode sammen på en kalkulator. Settes 
 4. Den ene eleven programmerer videre på 'front_end.py', den andre på 'back_end.py' 
 5. Bruk add og commit lokalt underveis, og når dere har fungerende kode pusher dere til COOP_REPO
 
-Ody på front end
-Ulrik på back end
+Ody på frontend
+Ulrik på backend
 
