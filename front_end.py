@@ -17,7 +17,7 @@ def printMeny():
 def utfoerMenyvalg(valgtTall):
     # Hvis brukeren velger "1", utføres regne-operasjonen
     if valgtTall == "1":
-        regne()  # Dette kaller en ekstern funksjon fra "back_end" som må være definert et annet sted
+        regne()  # Dette kaller en funksjon fra "back_end" som må være definert et annet sted
 
     # Hvis brukeren velger "2", vil de få muligheten til å avslutte programmet
     elif valgtTall == "2":
