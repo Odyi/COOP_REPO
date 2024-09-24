@@ -3,7 +3,7 @@
 def evaluate_expression(expression):
     """Evaluerer et matematisk uttrykk og returnerer resultatet."""
     try:
-        # Evaluerer uttrykket
+        # Basically regner ut alt for deg
         resultat = eval(expression)
         return resultat
     except (SyntaxError, NameError, ZeroDivisionError) as e:
