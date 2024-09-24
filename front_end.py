@@ -1,12 +1,13 @@
 # front_end.py
 
-from back_end import evaluate_expression  # Importerer evalueringsfunksjonen fra back_end
+from back_end import *  # Importerer evalueringsfunksjonen fra back_end
 
 # Funksjon som skriver ut hovedmenyen for kalkulatoren
 def printMeny():
     print("------------------- Kalkulator -------------------")
     print("| 1. Regne                                       |")
-    print("| 2. Avslutt                                     |")
+    print("| 2. Valutta                                     |")
+    print("| 3. Avslutt                                     |")
     print("--------------------------------------------------")
     menyvalg = input("Velg operasjon fra menyen: ")
     utfoerMenyvalg(menyvalg)
@@ -16,6 +17,8 @@ def utfoerMenyvalg(valgtTall):
     if valgtTall == "1":
         regne()  # Kaller regnefunksjonen
     elif valgtTall == "2":
+        convert_currency()
+    elif valgtTall == "3":
         bekreftelse = input("Er du sikker på at du vil avslutte? J/N ")
         if bekreftelse.lower() == "j":
             exit()  # Avslutter programmet
@@ -31,6 +34,8 @@ def regne():
     resultat = evaluate_expression(uttrykk)  # Bruker evalueringsfunksjonen fra back_end
     print(f"Resultat: {resultat}")
     pause_og_fortsett()
+
+
 
 # Funksjon som setter programmet på pause til brukeren trykker en tast
 def pause_og_fortsett():
